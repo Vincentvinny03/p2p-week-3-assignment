@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plp week 3 assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>New Student Registration</h1>
+    <form class="frm">
+        <div class="form-group">
+            <label for="name">First Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your first name">
+            <br><label for="name">Last Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your last name">
+        </div>
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"Date of birth>
+        </div><br>
+        <div class="form-group1">
+            <label for="gender">Gender:</label>
+            
+            <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other"><label for="other">Other</label>
+        </div><br>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" rows="5" cols="30" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="phone">Telephone:</label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="course">Course:</label>
+            <select name="course" id="course" required>
+                <option value="">Select Course</option>
+                <option value="math">Mathematics</option>
+                <option value="science">Science</option>
+                <option value="history">History</option>
+            </select>
+        </div>
+        <br>
+        <div class="but">
+        <button type="submit">submit</button>
+        <button type="cancel">cancel</button>
+        </div>
+    </form>
+
+</body>
+</html>
